@@ -1,5 +1,6 @@
 import java.util.*;
 
+// implement a queue using two stacks
 public class StaQueue {
 	
 	static Stack stOne = new Stack();
