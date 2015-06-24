@@ -15,6 +15,7 @@ public class StaQueue {
 		}
 		
 		return stTwo.pop();
+		
 		//slow way
 		/* reverseSend(stOne, stTwo);
 		Object out = new Object();
