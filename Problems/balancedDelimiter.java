@@ -9,10 +9,10 @@ class balancedDelimiter {
 		m1.put(']', '[');
 		Stack balance = new Stack();
 		for(char delim : deString.toCharArray()){
-			if(delim == '(' || delim == '{' || delim == '['){
+			if(m1.containsValue(delim)){
 				balance.push(delim);
 			}
-			if(delim == ')' || delim == '}' || delim == ']'){
+			if(m1.containsKey(delim)){
 				if(balance.peek() == m1.get(delim)){
 					balance.pop();
 				} else {
@@ -20,9 +20,6 @@ class balancedDelimiter {
 				}
 			}
 		}
-		if(balance.empty()){
-			return true;
-		}
-		return false;
+		return balance.empty();
 	}
 }
