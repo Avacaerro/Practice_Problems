@@ -1,4 +1,4 @@
-class containsCycleTest {
+class ContainsCycleTest {
 	
 	public static void main(String[] args){
 		Node A = new Node();

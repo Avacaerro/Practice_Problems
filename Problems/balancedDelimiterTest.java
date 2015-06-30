@@ -1,6 +1,6 @@
 import java.util.*;
 
-class balancedDelimiterTest {
+class BalancedDelimiterTest {
 	public static void main(String[] args){
 		String delimiters1 = "[()";
 		String delimiters2 = "[]{()}()";

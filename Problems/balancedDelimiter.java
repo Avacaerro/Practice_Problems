@@ -1,6 +1,6 @@
 import java.util.*;
 
-class balancedDelimiter {
+class BalancedDelimiter {
 	
 	public boolean isBalanced(String deString){
 		Map m1 = new HashMap();
@@ -23,3 +23,5 @@ class balancedDelimiter {
 		return balance.empty();
 	}
 }
+
+
